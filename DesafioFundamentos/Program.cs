@@ -14,10 +14,10 @@ Console.WriteLine("Agora digite o preço por hora:");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
 // Instancia a classe Estacionamento, já com os valores obtidos anteriormente
-Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
+var es = new Estacionamento(precoInicial, precoPorHora);
 
-string opcao = string.Empty;
-bool exibirMenu = true;
+var opcao = string.Empty;
+var exibirMenu = true;
 
 // Realiza o loop do menu
 while (exibirMenu)
